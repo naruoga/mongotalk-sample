@@ -1,0 +1,2 @@
+#! /bin/sh
+./vm_cog/linux/squeak.sh -vm-display-X11 -compositioninput ./image/mongotalk.image &
