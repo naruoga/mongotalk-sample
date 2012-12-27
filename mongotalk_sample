@@ -1,2 +1,4 @@
 #! /bin/sh
-./vm_cog/linux/squeak.sh -vm-display-X11 -compositioninput ./image/mongotalk.image &
+SQUEAK_DIR=`dirname ${0}`
+echo ${SQUEAK_DIR}
+${SQUEAK_DIR}/vm_cog/linux/squeak.sh -vm-display-X11 -compositioninput ${SQUEAK_DIR}/image/mongotalk.image &
